@@ -1,0 +1,16 @@
+name: Valyu Research OS
+description: Multi-agent academic and web research service
+
+agents:
+  - id: academic-search-agent
+    display_name: Academic Search
+  - id: web-search-agent
+    display_name: Web Search
+  - id: paper-deepdive-agent
+    display_name: Paper Deep-Dive
+  - id: domain-scoped-agent
+    display_name: Domain-Scoped Search
+
+teams:
+  - id: valyu-research-team
+    display_name: Research Team
