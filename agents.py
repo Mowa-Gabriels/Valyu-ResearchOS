@@ -14,7 +14,7 @@ db = SqliteDb(db_file="tmp/research_os.db")
 VALYU_API_KEY = os.getenv("VALYU_API_KEY")
 _claude = lambda: Claude(id="claude-sonnet-4-6")
 _huggingface = lambda: HuggingFace(
-        id="meta-llama/Meta-Llama-3-8B-Instruct",
+        id="Qwen/Qwen2.5-Coder-32B-Instruct",
         max_tokens=4096,
     )
 
